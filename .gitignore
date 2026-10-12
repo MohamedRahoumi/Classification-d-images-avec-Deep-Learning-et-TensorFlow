@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Jeux d'images volumineux
+Intel_Image_Classification/seg_train/
+Intel_Image_Classification/seg_pred/
+
+# Artefacts locaux générés
+Intel_Image_Classification/outputs/experiments/
+*.keras
+*.h5
